@@ -131,6 +131,11 @@ const MyPosts = () => {
         <Loading />
       ) : isFetching ? (
         <Refreshing />
+      ) : data?.posts?.length === 0 ? (
+        <div className="text-6xl text-center m-auto text-white">
+          {" "}
+          No Posts Found !
+        </div>
       ) : (
         <div>
           {data?.posts?.map((post: Post, idx: string) => {
