@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧑‍🤝‍🧑 Linked Posts — Social Platform
 
-## Getting Started
+Linked Posts is a social media-style web application that allows users to create posts, interact, and manage content dynamically.
 
-First, run the development server:
+The project was built to demonstrate authentication handling, protected routes, and interactive UI patterns.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 https://linked-posts-beta.vercel.app/login
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Project Overview
 
-To learn more about Next.js, take a look at the following resources:
+Linked Posts allows users to:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Register and log in
+* Create and delete posts
+* Interact with content
+* Manage user sessions
+* Access protected routes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* React / Next.js
+* TypeScript
+* Tailwind CSS
+* REST API
+* Authentication handling
+* Token-based session management
+* Shadcn UI
+* NextAuth
+  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Key Features
+
+* User authentication system
+* Protected routes
+* Dynamic content rendering
+* API-based CRUD operations
+* Form validation
+* Responsive layout
+
+---
+
+## 📂 Architecture Highlights
+
+* Organized folder structure
+* Reusable components
+* Centralized API service
+* Error & loading states handling
+
+---
+
+## 🎯 What I Learned
+
+* Authentication flows
+* Handling secure routes
+* Managing user-based state
+* Building scalable frontend logic
+
+---
+
+---
